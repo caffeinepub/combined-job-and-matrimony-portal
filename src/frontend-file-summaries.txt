@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with page routing, authentication state management, and profile setup modal integration using ThemeProvider and Toaster.",
+  "frontend/src/hooks/useQueries.ts": "Comprehensive React Query hooks for all backend operations including user profiles, job listings, applications, messages, matches, interests, admin functions, and new AI-powered recommendation queries with proper error handling and cache invalidation.",
+  "frontend/src/components/Header.tsx": "Responsive header component with navigation menu, authentication controls, and mobile menu support showing different options based on user role.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with branding and attribution link to caffeine.ai.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup requiring name input before accessing the platform.",
+  "frontend/src/pages/HomePage.tsx": "Landing page with hero section, feature cards, and call-to-action sections showcasing both job and matrimony portal features.",
+  "frontend/src/pages/JobPortalPage.tsx": "Job portal page with search filters, job listings display, and application functionality with authentication checks.",
+  "frontend/src/pages/MatrimonyPortalPage.tsx": "Matrimony portal page with profile search, filtering, and interest sending functionality for authenticated users.",
+  "frontend/src/pages/DashboardPage.tsx": "User dashboard with tabbed interface for overview, AI recommendations, job profile, matrimonial profile, applications, and interests management with navigation support.",
+  "frontend/src/pages/AdminDashboardPage.tsx": "Admin dashboard for managing users, creating/deleting job listings, and viewing platform statistics with role-based access control.",
+  "frontend/src/components/JobProfileForm.tsx": "Form component for creating and updating job profile information including education, experience, and salary expectations.",
+  "frontend/src/components/MatrimonialProfileForm.tsx": "Form component for creating and updating matrimonial profile information including personal details and partner preferences.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple/blue primary colors and rose accent colors for both light and dark modes.",
+  "frontend/src/components/RecommendationsSection.tsx": "New component displaying AI-powered job and matrimonial recommendations with match scores, compatibility percentages, and reasoning explanations for each suggestion."
+}
